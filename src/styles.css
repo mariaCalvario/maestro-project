@@ -64,6 +64,7 @@ p {
   max-width: 170px;
   background-color: #dddddd;
   border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   transition: all 200ms ease-in-out;
   padding: 8px 10px;
 }
@@ -75,6 +76,7 @@ p {
   text-decoration: underline;
   background: none;
   transition: all 200ms ease;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .mapas {
