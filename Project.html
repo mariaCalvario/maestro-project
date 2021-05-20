@@ -4,131 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
     <title>Maestro José Calvário 🎹</title>
-    <style>
-      body {
-        background: url("https://germanyask.com/wp-content/uploads/2018/02/4444-3.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        display: block;
-      }
-
-      h1,
-      h2,
-      .conductor,
-      .eurovision,
-      .coder,
-      .download {
-        text-align: center;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        color: #393e46;
-      }
-
-      h1 {
-        font-size: 35px;
-        margin-top: 50px;
-        margin-bottom: 10px;
-      }
-
-      h2 {
-        font-size: 25px;
-        margin-top: 50px;
-      }
-
-      p {
-        font-size: 14.5px;
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        text-align: justify;
-        line-height: 1.5;
-      }
-
-      .maestro {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        width: 400px;
-      }
-
-      .content {
-        max-width: 700px;
-        background-color: white;
-        opacity: 93%;
-        margin: auto;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        padding: 15px 50px;
-        border-radius: 15px;
-        box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.5);
-      }
-
-      .conductor,
-      .eurovision,
-      .download {
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: bold;
-        max-width: 170px;
-        background-color: #dddddd;
-        border-radius: 5px;
-        transition: all 200ms ease-in-out;
-        padding: 8px 10px;
-      }
-
-      .conductor:hover,
-      .eurovision:hover,
-      .download:hover {
-        color: black;
-        text-decoration: underline;
-        background: none;
-        transition: all 200ms ease;
-      }
-
-      .mapas {
-        max-width: 130px;
-        margin-left: 20px;
-        margin-right: 20px;
-        border-radius: 5px;
-      }
-
-      .container {
-        display: flex;
-      }
-      .download {
-        display: block;
-        margin-left: auto;
-        margin-top: 10px;
-        margin-bottom: 70px;
-        padding: 8px 0;
-      }
-
-      button {
-        display: block;
-        margin: 0 auto;
-        font-size: 20px;
-        color: white;
-        font-weight: bold;
-        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-        background: #797a7e;
-        border: 1px solid black;
-        padding: 20px;
-        border-radius: 100px;
-        transition: all 200ms ease;
-        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-        cursor: pointer;
-      }
-
-      button:hover {
-        color: #797a7e;
-        background: none;
-      }
-
-      .coder {
-        font-size: 14px;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <div class="content">
@@ -226,22 +104,6 @@
         This page was built by <strong>Maria Calvário</strong> 👩‍💻
       </p>
     </div>
-    <script>
-      function orderRecords() {
-        let name = prompt("What is your name?");
-        let email = prompt("What is your email adress?");
-        alert(
-          "Hi, " +
-            name +
-            "! Thank you for your visit 😊 " +
-            " We'll get back to you soon at " +
-            email +
-            " so you can place your order 🎧"
-        );
-      }
-
-      let orderRecordsButton = document.querySelector("button");
-      orderRecordsButton.addEventListener("click", orderRecords);
-    </script>
+    <script src="src/index.js"></script>
   </body>
 </html>
